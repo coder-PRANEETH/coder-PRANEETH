@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=7F5AF0&center=true&vCenter=true&width=900&lines=AI+Researcher;Robotics+Engineer;Full+Stack+Developer;Deep+Learning+Explorer;Building+Future+Intelligent+Systems" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=005AF0&center=true&vCenter=true&width=900&lines=AI+Researcher;Robotics+Engineer;Full+Stack+Developer;Deep+Learning+Explorer;Building+Future+Intelligent+Systems" />
 
 </div>
 
