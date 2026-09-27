@@ -1,192 +1,52 @@
-# <div align="center">🌌 PRANEETH MAHESHWARAN 🌌</div>
+<a href="https://coder-praneeth.github.io/portfolio/">
+  <img src="assets/hero.svg" width="100%" alt="Praneeth Maheshwaran. ML, robotics, computer vision. B.Tech CSE, SASTRA University, 2028, Tamil Nadu. A gantry engraver writes the name while a 3-DOF robot arm runs pick-and-place on a conveyor." />
+</a>
 
-<div align="center">
+<p align="center">
+  <a href="https://coder-praneeth.github.io/portfolio/"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/praneeth-maheswaran"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;
+  <a href="mailto:praneethmaheshwaran@gmail.com"><img src="assets/btn-email.svg" height="44" alt="Email" /></a>
+</p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=005AF0&center=true&vCenter=true&width=900&lines=AI+Researcher;Robotics+Engineer;Full+Stack+Developer;Deep+Learning+Explorer;Building+Future+Intelligent+Systems" />
+## <samp>about</samp>
 
-</div>
-
----
-
----
-
-# 🧠 ABOUT ME
+I'm a CSE undergrad at SASTRA (class of 2028) who likes the point where a model leaves the notebook and meets the real world: roads with no lane markings, satellite passes under monsoon cloud, a rail network in the middle of an incident. I build the whole path, from dataset and model to the service and the screen someone actually uses, and the rest of my time goes to ESP32s and servos.
 
 ```yaml
-Name: Praneeth Maheshwaran
-Role: AI & Robotics Developer
-Location: Tamil Nadu, India
-
-Education:
-  Degree: B.Tech Computer Science and Engineering
-  University: SASTRA Deemed University
-  Graduation: 2028
-
-Specializations:
-  - Artificial Intelligence
-  - Robotics
-  - Deep Learning
-  - Computer Vision
-  - Embedded Systems
-  - Full Stack Development
-
-Mission:
-  Building intelligent systems that combine
-  AI, robotics, and real-world automation.
+# rostopic echo /praneeth
+research:  SAR → optical translation over Indian terrain
+recent:    [lane detection on unmarked roads, AirNote, RailMind]
+hardware:  [ESP32 GPS telemetry, 3-DOF robotic arm]
 ```
 
----
+## <samp>projects</samp>
 
-# ⚡ TECH STACK
+<p align="center">
+  <a href="https://github.com/coder-PRANEETH/sar2optical-terrain-india"><img src="assets/card-sar2optical-terrain-india.svg" width="49%" alt="SAR to optical: does Sentinel-1 to Sentinel-2 translation break on Indian terrain? 15 sites across five regions; radar-shadow pixels carry 68% more error; adding a DEM gives no measurable gain." /></a>
+  <a href="https://github.com/coder-PRANEETH/Lane-Detection"><img src="assets/card-lane-detection.svg" width="49%" alt="Lane detection on roads with no lane markings: about 50 fps at 640x360 on an RTX 3050 laptop, junctions confirmed over 4 of 7 frames, pretrained YOLOPv2 with no training." /></a>
+  <a href="https://github.com/coder-PRANEETH/Railmind"><img src="assets/card-railmind.svg" width="49%" alt="RailMind: a 21-station, 33-corridor rail digital twin where LangGraph agents plan incident responses, with an L0 to L4 escalation ladder and 206 tests." /></a>
+  <a href="https://github.com/coder-PRANEETH/SentinelAI"><img src="assets/card-sentinelai.svg" width="49%" alt="SentinelAI: incident copilot for emergency dispatch with CatBoost models, FAISS similarity search over past incidents and Whisper speech-to-text." /></a>
+  <a href="https://github.com/coder-PRANEETH/AirNote"><img src="assets/card-airnote.svg" width="49%" alt="AirNote: fuses the board and the lecturer's voice into timed notes, fully on-device, with an INT4 LLM on the Snapdragon NPU." /></a>
+  <a href="https://github.com/coder-PRANEETH/Pragyan_Hackathon"><img src="assets/card-pragyan_hackathon.svg" width="49%" alt="Medical triage: multimodal triage from voice, text and EHR, trained on CTGAN synthetic records with random forest and XGBoost, explained with SHAP." /></a>
+</p>
 
-<div align="center">
+| also built | |
+|---|---|
+| [**nalam-ecommerce**](https://github.com/coder-PRANEETH/nalam-ecommerce) · [live](https://nalam-ecommerce.vercel.app) | MERN grocery store with an admin dashboard, Razorpay checkout and OTP sign-in over Nodemailer |
+| [**srt-dashboard**](https://github.com/coder-PRANEETH/srt-dashboard) | two ESP32s: one streams GPS fixes as JSON, the other hosts a Wi-Fi dashboard from LittleFS |
+| [**number-classification**](https://github.com/coder-PRANEETH/number-classification) | a CNN written from scratch in NumPy, forward and backward passes by hand, on MNIST |
+| [**pneumonia-detection**](https://github.com/coder-PRANEETH/pneumonia-detection) | pneumonia detection model in Python |
+| [**mail-spam-classification**](https://github.com/coder-PRANEETH/mail-spam-classification) | email spam classifier |
+| [**expense-tracker**](https://github.com/coder-PRANEETH/expense-tracker) | full-stack expense tracker with a separate frontend and backend |
 
-### 💻 Languages
+## <samp>stack</samp>
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,java,rust,javascript"/>
+<img src="assets/bom.svg" width="100%" alt="Languages: Python, C++, C, Java, JavaScript, TypeScript, Kotlin. Perception: PyTorch, TensorFlow, OpenCV, YOLOPv2, U-Net, Earth Engine. Learning: scikit-learn, XGBoost, CatBoost, SHAP, CTGAN, FAISS. Agents and backend: LangGraph, FastAPI, Django, Flask, Express, Redis, PostgreSQL, MongoDB. Interfaces: React, Node.js, TanStack Start, Android and CameraX. Hardware: ESP32, Arduino, Raspberry Pi, GPS with TinyGPSPlus, servos and PWM." />
 
----
+## <samp>activity</samp>
 
-### 🧠 AI / ML / Computer Vision
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv"/>
-
----
-
-### 🌐 Web Development
-
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb"/>
-
----
-
-### 🤖 Robotics & Tools
-
-<img src="https://skillicons.dev/icons?i=arduino,raspberrypi,git,github,vscode,blender"/>
-
-</div>
-
----
-
-# 🚀 FEATURED PROJECTS
-
-## 🏥 AI-Powered Multimodal Healthcare Triage System
-```
-+ Voice + Text + EHR based AI triage system
-+ Generated 20k+ synthetic patient records using CTGAN
-+ Trained ML models using Random Forest & XGBoost
-+ Built MERN dashboard with SHAP explainability
-```
-
----
-
-## 🧠 CNN From Scratch
-```
-+ Built convolutional neural networks using only NumPy
-+ Implemented forward & backward propagation manually
-+ Designed convolution, pooling, and dense layers
-```
-
----
-
-## 🤖 3 DOF Robotic Manipulator
-```
-+ Developed robotic arm for controlled object movement
-+ Implemented servo coordination and embedded control
-+ Worked on forward kinematics and motion testing
-```
-
----
-
-## 🚗 ESP32 Remote Vehicle Automation
-```
-+ Wireless robotic vehicle with real-time control
-+ Embedded programming with PWM motor control
-+ Stable remote navigation and debugging
-```
-
----
-
-## 🛒 MERN E-Commerce Platform
-```
-+ Full-stack grocery platform with admin dashboard
-+ Razorpay payment integration
-+ OTP authentication using Nodemailer
-```
-
----
-
-# 📊 GITHUB ANALYTICS
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=coder-PRANEETH&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117"/>
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=coder-PRANEETH&theme=radical&hide_border=true&background=0D1117"/>
-
-</div>
-
-
-
-
-
-# 📈 CONTRIBUTION GRAPH
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=coder-PRANEETH&theme=react-dark&hide_border=true"/>
-
-</div>
-
----
-
-# ⚙️ CURRENT STATUS
-
-<div align="center">
-
-```text
-Artificial Intelligence    ██████████████████
-Robotics Systems           █████████████████
-Computer Vision            ███████████████
-Embedded Development       ████████████████
-Research & Experimentation ██████████████
-```
-
-</div>
-
----
-
-# 🌐 CONNECT WITH ME
-
-<div align="center">
-
-<a href="mailto:praneethmaheshwaran@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-7F5AF0?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="https://github.com/coder-PRANEETH?tab=repositories">
+  <img src="profile-3d-contrib/profile-customize.svg" width="100%" alt="3D contribution calendar with a language breakdown and contribution radar, refreshed daily" />
 </a>
 
-<a href="https://www.linkedin.com/in/praneeth-maheswaran">
-<img src="https://img.shields.io/badge/LINKEDIN-7F5AF0?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/coder-PRANEETH">
-<img src="https://img.shields.io/badge/GITHUB-7F5AF0?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</div>
-
----
-
-# 🧬 PHILOSOPHY
-
-<div align="center">
-
-### ⚡ *"Engineering the future through AI, robotics, and intelligent automation."*
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F5AF0,100:2CB67D&height=140&section=footer"/>
-
-</div>
+<img src="assets/footer.svg" width="100%" alt="" />
