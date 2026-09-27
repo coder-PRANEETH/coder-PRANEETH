@@ -25,9 +25,8 @@ def write(name, svg):
 if __name__ == "__main__":
     os.makedirs(OUT, exist_ok=True)
     write("hero.svg", hero.build())
-    for p in cards.PROJECTS:
-        write(f"card-{p['slug'].lower()}.svg", cards.card(p))
+    for i, p in enumerate(cards.PROJECTS):
+        write(f"card-{p['slug'].lower()}.svg", cards.card(p, "left" if i % 2 == 0 else "right"))
     write("bom.svg", cards.bom())
-    write("footer.svg", cards.footer())
     for name, label, icon in cards.BUTTONS:
         write(name, cards.button(label, icon))

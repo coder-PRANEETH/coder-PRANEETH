@@ -6,7 +6,8 @@ import math
 
 from svgkit import SVG, C, measure
 
-CW, CH = 600, 322
+CW, CH = 600, 334
+GUTTER = 28  # transparent gap baked into each card so the grid breathes
 
 
 def _wrap(key, text, size, width):
@@ -208,7 +209,18 @@ PROJECTS = [
 ]
 
 
-def card(p):
+def card(p, side="left"):
+    """side='left' leaves the gutter on the right, 'right' leaves it on the left,
+    so a pair at 50% width lines up flush with the full-width panels."""
+    svg = _card(p)
+    head_old = f'width="{CW}" height="{CH}" viewBox="0 0 {CW} {CH}"'
+    vx = 0 if side == "left" else -GUTTER
+    head_new = f'width="{CW+GUTTER}" height="{CH}" viewBox="{vx} 0 {CW+GUTTER} {CH}"'
+    assert head_old in svg
+    return svg.replace(head_old, head_new, 1)
+
+
+def _card(p):
     s = SVG(CW, CH, f"{p['title']}: {p['sub']}",
             f"{p['label']}. " + "; ".join(f"{v} {k}" for v, k in p["stats"]) + ". Stack: " + ", ".join(p["chips"]))
     ink, dim, mute, line, org = C["ink"], C["dim"], C["mute"], C["line"], C["orange"]
@@ -222,7 +234,7 @@ def card(p):
     extra = triage_labels(s) if p["glyph"] == "triage" else ""
     s.add(f'<g transform="translate(436 22)">{GLYPHS[p["glyph"]]()}{extra}</g>')
 
-    y0 = 152 + (23 if len(subl) > 1 else 0)
+    y0 = 160 + (23 if len(subl) > 1 else 0)
     colw = (CW - 56) / 3
     for i, (v, k) in enumerate(p["stats"]):
         x = 28 + i * colw

@@ -22,12 +22,15 @@ hardware:  [ESP32 GPS telemetry, 3-DOF robotic arm]
 ## <samp>projects</samp>
 
 <p align="center">
-  <a href="https://github.com/coder-PRANEETH/sar2optical-terrain-india"><img src="assets/card-sar2optical-terrain-india.svg" width="49%" alt="SAR to optical: does Sentinel-1 to Sentinel-2 translation break on Indian terrain? 15 sites across five regions; radar-shadow pixels carry 68% more error; adding a DEM gives no measurable gain." /></a>
-  <a href="https://github.com/coder-PRANEETH/Lane-Detection"><img src="assets/card-lane-detection.svg" width="49%" alt="Lane detection on roads with no lane markings: about 50 fps at 640x360 on an RTX 3050 laptop, junctions confirmed over 4 of 7 frames, pretrained YOLOPv2 with no training." /></a>
-  <a href="https://github.com/coder-PRANEETH/Railmind"><img src="assets/card-railmind.svg" width="49%" alt="RailMind: a 21-station, 33-corridor rail digital twin where LangGraph agents plan incident responses, with an L0 to L4 escalation ladder and 206 tests." /></a>
-  <a href="https://github.com/coder-PRANEETH/SentinelAI"><img src="assets/card-sentinelai.svg" width="49%" alt="SentinelAI: incident copilot for emergency dispatch with CatBoost models, FAISS similarity search over past incidents and Whisper speech-to-text." /></a>
-  <a href="https://github.com/coder-PRANEETH/AirNote"><img src="assets/card-airnote.svg" width="49%" alt="AirNote: fuses the board and the lecturer's voice into timed notes, fully on-device, with an INT4 LLM on the Snapdragon NPU." /></a>
-  <a href="https://github.com/coder-PRANEETH/Pragyan_Hackathon"><img src="assets/card-pragyan_hackathon.svg" width="49%" alt="Medical triage: multimodal triage from voice, text and EHR, trained on CTGAN synthetic records with random forest and XGBoost, explained with SHAP." /></a>
+  <a href="https://github.com/coder-PRANEETH/sar2optical-terrain-india"><img src="assets/card-sar2optical-terrain-india.svg" width="49.9%" alt="SAR to optical: does Sentinel-1 to Sentinel-2 translation break on Indian terrain? 15 sites across five regions; radar-shadow pixels carry 68% more error; adding a DEM gives no measurable gain." /></a><a href="https://github.com/coder-PRANEETH/Lane-Detection"><img src="assets/card-lane-detection.svg" width="49.9%" alt="Lane detection on roads with no lane markings: about 50 fps at 640x360 on an RTX 3050 laptop, junctions confirmed over 4 of 7 frames, pretrained YOLOPv2 with no training." /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/coder-PRANEETH/Railmind"><img src="assets/card-railmind.svg" width="49.9%" alt="RailMind: a 21-station, 33-corridor rail digital twin where LangGraph agents plan incident responses, with an L0 to L4 escalation ladder and 206 tests." /></a><a href="https://github.com/coder-PRANEETH/SentinelAI"><img src="assets/card-sentinelai.svg" width="49.9%" alt="SentinelAI: incident copilot for emergency dispatch with CatBoost models, FAISS similarity search over past incidents and Whisper speech-to-text." /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/coder-PRANEETH/AirNote"><img src="assets/card-airnote.svg" width="49.9%" alt="AirNote: fuses the board and the lecturer's voice into timed notes, fully on-device, with an INT4 LLM on the Snapdragon NPU." /></a><a href="https://github.com/coder-PRANEETH/Pragyan_Hackathon"><img src="assets/card-pragyan_hackathon.svg" width="49.9%" alt="Medical triage: multimodal triage from voice, text and EHR, trained on CTGAN synthetic records with random forest and XGBoost, explained with SHAP." /></a>
 </p>
 
 | also built | |
@@ -45,8 +48,6 @@ hardware:  [ESP32 GPS telemetry, 3-DOF robotic arm]
 
 ## <samp>activity</samp>
 
-<a href="https://github.com/coder-PRANEETH?tab=repositories">
-  <img src="profile-3d-contrib/profile-customize.svg" width="100%" alt="3D contribution calendar with a language breakdown and contribution radar, refreshed daily" />
-</a>
+<img src="profile-3d-contrib/profile-customize.svg" width="100%" alt="3D contribution calendar with a language breakdown and contribution radar, refreshed daily" />
 
-<img src="assets/footer.svg" width="100%" alt="" />
+<img src="generated/agv.svg" width="100%" alt="The last year of contributions as a warehouse floor: a robot picks every day with commits, drives back to its dock and the floor restocks" />
